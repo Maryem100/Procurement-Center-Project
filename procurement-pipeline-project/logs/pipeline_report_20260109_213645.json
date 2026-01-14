@@ -1,0 +1,43 @@
+{
+  "pipeline_run": "2026-01-09T21:36:45.094503",
+  "status": "SUCCESS",
+  "duration_seconds": 0.955269,
+  "steps_executed": [
+    {
+      "step": "Validation donn\u00e9es locales",
+      "status": "SUCCESS",
+      "timestamp": "2026-01-09T21:36:44.185297",
+      "message": "4 fichiers d\u00e9tect\u00e9s"
+    },
+    {
+      "step": "Validation Trino",
+      "status": "SUCCESS",
+      "timestamp": "2026-01-09T21:36:44.186982",
+      "message": "Connexion Trino disponible"
+    },
+    {
+      "step": "Validation PostgreSQL",
+      "status": "SUCCESS",
+      "timestamp": "2026-01-09T21:36:44.189960",
+      "message": "Connexion PostgreSQL disponible"
+    },
+    {
+      "step": "Calcul du net_demand",
+      "status": "SUCCESS",
+      "timestamp": "2026-01-09T21:36:44.851364",
+      "message": "\u00c9tape ex\u00e9cut\u00e9e avec succ\u00e8s"
+    },
+    {
+      "step": "G\u00e9n\u00e9ration des commandes fournisseurs",
+      "status": "SUCCESS",
+      "timestamp": "2026-01-09T21:36:45.067656",
+      "message": "\u00c9tape ex\u00e9cut\u00e9e avec succ\u00e8s"
+    }
+  ],
+  "errors": [],
+  "output_files": {
+    "json_files": 3,
+    "csv_files": 3,
+    "supplier_orders_dir": "/app/output/supplier_orders"
+  }
+}

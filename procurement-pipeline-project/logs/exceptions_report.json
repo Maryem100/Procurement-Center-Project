@@ -1,0 +1,58 @@
+{
+  "timestamp": "2026-01-03T16:22:53.962837",
+  "total_issues": 0,
+  "files_checked": [
+    {
+      "name": "net_demand.json",
+      "path": "/app/output/net_demand.json",
+      "size": 69202,
+      "status": "OK"
+    },
+    {
+      "name": "supplier_a_orders.json",
+      "path": "/app/output/supplier_orders/supplier_a_orders.json",
+      "size": 436,
+      "status": "OK"
+    },
+    {
+      "name": "supplier_b_orders.json",
+      "path": "/app/output/supplier_orders/supplier_b_orders.json",
+      "size": 265,
+      "status": "OK"
+    },
+    {
+      "name": "supplier_c_orders.json",
+      "path": "/app/output/supplier_orders/supplier_c_orders.json",
+      "size": 269,
+      "status": "OK"
+    }
+  ],
+  "files_missing": [],
+  "json_validation": [
+    {
+      "file": "net_demand.json",
+      "status": "OK",
+      "products": 200
+    },
+    {
+      "file": "supplier_a_orders.json",
+      "status": "OK",
+      "items": 2,
+      "total_quantity": 2424
+    },
+    {
+      "file": "supplier_b_orders.json",
+      "status": "OK",
+      "items": 1,
+      "total_quantity": 0
+    },
+    {
+      "file": "supplier_c_orders.json",
+      "status": "OK",
+      "items": 1,
+      "total_quantity": 1668
+    }
+  ],
+  "warnings": [],
+  "errors": []
+}
